@@ -1,0 +1,251 @@
+body 
+{
+	margin-left: auto;
+	margin-right: auto;
+	font-family: sans-serif, arial;
+	background-image: url("bg.jpg");
+}
+
+#header 
+{
+	background: black;
+	color: white;
+	font-family: adobe garamond pro, arial;
+	text-align: center;
+}
+
+#container /* sets margins and width of container which is inside the main body */
+{
+	background-color: white;
+	width: 920px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo /* sets logo dimensions */
+{
+	width: 20%;
+	height: 20%;
+}
+.center /* class to center logo */
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.menu ul
+{
+	
+	padding: 0;
+	list-style-type:none;
+}
+
+.menu li
+{
+	
+	font:bold 15px/16px arial, sans-serif;
+	display:block;  
+	float:left;
+	position:relative;
+	background: #696969;
+}
+
+.menu li a
+{
+	display:block;
+	width:142px;
+	line-height:35px;
+	text-align:center;
+	text-decoration: none;
+	color:white;
+}
+ 
+
+
+.menu li ul
+{
+	display:none;
+	position:absolute;
+}
+
+.menu li:hover 
+{
+	background: #D3D3D3;
+}
+
+.menu a:hover
+{
+	color: #000;
+}
+
+.menu li:hover ul 
+{
+	display:block;
+}
+
+.menu
+{
+	margin-left: 15px;
+}
+
+.menu ul li a 
+{
+	margin: 3px;
+}
+
+.menu li.current {
+	background-color:  #006400;
+	
+}
+
+
+#story, #story2
+{
+		border-radius: 20px;
+		width: 600px;
+		float: left;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		border: 1px solid black;
+		margin-left: 10px;
+}
+
+
+#story, #story2, #Notification, #About, #Quick 
+{
+	background-color: #cccccc;
+}
+
+#story p, #story2 p, #Notification p, #About p 
+{
+	text-align: left;
+	margin-left: 10px;
+}
+
+#story h2, #story2 h2, #Quick h2, #Notification h2, #About h2 
+{
+	/* Sets color, alignment and 15px indentation for 
+	headers of these elements */
+	color: #006400;
+	text-align: left;
+	text-indent: 15px;
+
+}
+
+#story h2, #story2 h2 {
+	text-decoration: underline;
+}
+
+#story h3, #story2 h3
+{ 
+	text-align: left;
+	text-indent: 12px;
+	color: #000000;
+	font:italic 12px/14px sans-serif, optima;
+}
+
+
+
+#Notification, #Quick, #About 
+{ /* leaves 5px of margin to the right of each of these elements
+	so they're not touching the container */
+	margin-right: 5px;
+}
+
+#Quick, #About, #Notification
+{
+
+	border: 1px solid black;
+	border-radius: 25px;
+	float: right;
+	width: 290px;
+	margin-top: 10px;
+	margin-bottom: 8px;
+}
+
+#footer 
+{
+	clear: both;
+	position: relative;
+	padding: 10px;
+	color: white;
+	background-color: black;
+}
+
+#AboutUs, #ContactUs
+{
+	margin-left: 20px;
+	padding: 10px;
+}
+#AboutUs h3, #ContactUs h3
+{
+	color: #006400;
+}
+
+#AboutUs li, #Stocks p, #Bonds p {
+	text-align: justify;
+}
+
+#Quick a, #About a, #Notification a, #Q1 a, #Q2 a, #Q3 a, #AboutUs:link
+{
+	color: blue;
+}
+#Quick a,  #About a, #Notification a, #Q1 a, #Q2 a, #Q3 a, #AboutUs a:visited
+{
+	color: blue;
+}
+
+#footer a, #ContactUs a:link
+{
+	color: #006400;
+}
+
+
+
+#footer a:visited
+{
+	color: #006400;
+}
+
+#ContactUs h2, #AboutUs h2, #Q1 h2, #Q2 h2, #Q3 h2, #Stocks h2, #Bonds h2, #Terms h2
+{
+	text-align: center;
+}
+
+#ContactUs li
+{
+	list-style-type: none;
+}
+
+td, th
+{
+	border: 1px solid black;
+	padding: 0.5em;
+	text-align:center;
+	
+}
+
+
+ table
+{
+
+	margin-left: 100px;
+}
+
+#Terms .heading 
+{
+	font-weight: bold;
+}
+
+
+hr /* style for horizional rules on webpage */
+{
+	width: 50%;
+	border: 1px solid;
+	border-color: #696969;
+}
+
+
+
